@@ -11,8 +11,8 @@ export default function Header({ onToggleMenu }: HeaderProps) {
   // Estado para controlar se a janela (dropdown) está aberta ou fechada
   const [isNotificationsOpen, setIsNotificationsOpen] = useState(false);
 
-  // Estado para simular se há notificações (futuramente, isso deve vir de uma API ou Contexto)
-  const [hasNotifications, setHasNotifications] = useState(true);
+  // Simula se há notificações (futuramente, isso deve vir de uma API ou Contexto)
+  const hasNotifications = true;
 
   return (
     <header className="bg-white dark:bg-slate-900 h-16 border-b border-gray-200 dark:border-slate-700 flex items-center justify-between px-6 sticky top-0 z-50">
